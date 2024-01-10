@@ -21,14 +21,20 @@ export default function ThanksPage() {
       <MainContainer className={Vietnam.className}>
         <Image alt="logo" src={Thanks} quality={100} />{' '}
         <TextContent>
-          <h1>Parabéns Pela Compra Do App!</h1>
-          <p>será enviado para seu e-mail o acesso. Muito fácil de acessar!</p>
-
+          <h1>Parabéns Pela Compra Deste Produto!</h1>
           <p>
-            Aproveite esta oportunidade! E memorize uma coisa: Tudo depende de
+            O seu produto foi enviado e deve chegar em seu e-mail em poucos
+            minutos!
+          </p>
+          <p>
+            Lembre-se: Se você está procurando resultado, terá que seguir o
+            passo a passo deste produto.
+          </p>
+          <p>
+            Aproveitem esta oportunidade! E memorize uma coisa: Tudo depende de
             você! A culpa sempre será sua por estar onde você está.
           </p>
-          <p>Boa sorte, Descobrindo Segredos</p>
+          <p>Boa sorte, Milagre da visão</p>
         </TextContent>
       </MainContainer>
     </>
