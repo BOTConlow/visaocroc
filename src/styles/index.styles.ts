@@ -24,6 +24,25 @@ export const MainContent = styled('div', {
     },
   },
 
+  a: {
+    fontSize: '1.5rem',
+    padding: '1rem 2rem',
+    background: 'linear-gradient(90deg, #00B4DB, #0083B0)',
+    textDecoration: 'none',
+    borderRadius: '2rem',
+    color: '#fff',
+    transition: '300ms ease',
+
+    '@media (max-width: 768px)': {
+      padding: '1rem 1.5rem',
+      fontSize: '1.1rem',
+    },
+
+    '&:hover': {
+      transform: 'scale(1.1)',
+    },
+  },
+
   '@media (max-width: 768px)': {
     gap: '2rem',
   },

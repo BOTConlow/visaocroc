@@ -10,6 +10,7 @@ import { Vsl } from '@/components/vsl'
 import { Comentarios } from '@/components/Comentarios'
 import { format } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
+import { useEffect, useState } from 'react'
 
 const Vietnam = Sora({
   subsets: ['latin'],
@@ -25,6 +26,14 @@ const currentFormatted = format(currentDate, "dd 'de' MMMM", {
 })
 
 export default function Home() {
+  const [timeButton, setTimeButton] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setTimeButton(true)
+    }, 1540000)
+  }, [])
+
   return (
     <>
       <Head>
@@ -45,6 +54,12 @@ export default function Home() {
             </Header>
             <Image alt="headline" quality={100} src={Headline} />
             <Vsl />
+            {timeButton && (
+              <a href="https://music.youtube.com">
+                QUERO TER MINHA VISÃO DE VOLTA!
+              </a>
+            )}
+
             <Comentarios />
           </MainContent>
         </MainContainer>
