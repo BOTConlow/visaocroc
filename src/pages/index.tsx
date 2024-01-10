@@ -55,7 +55,7 @@ export default function Home() {
             <Image alt="headline" quality={100} src={Headline} />
             <Vsl />
             {timeButton && (
-              <a href="https://checkout.perfectpay.com.br/pay/PPU38CM6227?utm_term=20dez-lead2">
+              <a href="https://checkout.perfectpay.com.br/pay/PPU38CNQBDB?">
                 QUERO TER MINHA VISÃO DE VOLTA!
               </a>
             )}
