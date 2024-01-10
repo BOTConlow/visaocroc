@@ -27,7 +27,8 @@ export const MainContent = styled('div', {
   a: {
     fontSize: '1.5rem',
     padding: '1rem 2rem',
-    background: 'linear-gradient(90deg, #00B4DB, #0083B0)',
+    background: 'linear-gradient(90deg, #11998e, #38ef7d)',
+    boxShadow: '6px 8px 5px 0px #ccc',
     textDecoration: 'none',
     borderRadius: '2rem',
     color: '#fff',
